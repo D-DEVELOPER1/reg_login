@@ -12,7 +12,7 @@
     height: 350px;
     border: 3px solid #ccc;
     background: #eee;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 50px;
     padding: 10px 10px;
   }
@@ -106,7 +106,7 @@ input[type=checkbox]{
  .menu { 
   display:none;
   position: absolute;
-  background-color:teal;
+  background-color:rgb(146, 152, 152);
   right: 0;
   left: 0;
   text-align: center;
@@ -132,7 +132,7 @@ input[type=checkbox]{
   transform: translateX(35%);
  }
  .dropdown li:hover {
-  background-color: #4c9e9e;
+  background-color: #42a4a4;
  }
  }
  .para-div{
@@ -205,17 +205,24 @@ li{
 #para_div{
   margin-top: 50px;
 }
+input{
+  height: 40px;
+  width: 80%;
+}
 #input-div{
-  font-size: 18px;
-  margin-left: 100px;
-
+  font-size: 24px;
+  text-align: center;
 }
 .last-div{
   display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   ;
+}
+.sub-butt{
+  height: 50px;
+  width: 30%;
 }
 #last-div{
   font-size: 20px;
@@ -223,11 +230,22 @@ li{
 input{
 
   text-align: center;
-  height: 25px;
-  width: 30%;
+  
 }
 footer{
   background-color: black;
+  color: rgb(254, 254, 254);
+  margin-top: 15%;
+  
+}
+#h2-footer{
+  text-align: center;
+}
+#last-div{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0
 }
 
 
